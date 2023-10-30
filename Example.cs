@@ -8,10 +8,10 @@ example.ExampleTwoArgs();
 example.ExampleClassObjectArg();
 
 
-class Example
+internal class Example
 {
     // use enum is a good habit
-    enum EventType
+    private enum EventType
     {
         One = 0,
         Two,

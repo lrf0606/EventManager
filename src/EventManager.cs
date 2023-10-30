@@ -18,7 +18,7 @@ namespace Game
             {
                 return;
             }
-
+         
             if (m_eventDict.TryGetValue(eventType, out var deg))
             {
                 m_eventDict[eventType] = Delegate.Combine(deg, action);
